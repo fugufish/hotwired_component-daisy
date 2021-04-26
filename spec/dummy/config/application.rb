@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "boot"
 
 require "rails"
@@ -19,6 +21,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 require "hotwired_component/daisy"
+require "view_component/engine"
 
 module Dummy
   class Application < Rails::Application
