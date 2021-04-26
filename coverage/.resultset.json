@@ -1,15 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/workspaces/hotwired_component-daisy/lib/hotwired_component/daisy/version.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/workspaces/hotwired_component-daisy/lib/hotwired_component/daisy.rb": {
         "lines": [
           1,
@@ -116,6 +107,53 @@
           null
         ]
       },
+      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy/card/body_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy/card/title_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy/card_component.rb": {
         "lines": [
           null,
@@ -138,12 +176,167 @@
           null
         ]
       },
-      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy_component.rb": {
+      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy/flash_component.rb": {
         "lines": [
           null,
           null,
           1,
           1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy/forms/input_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/workspaces/hotwired_component-daisy/app/components/hotwired_component/daisy/forms/label_component.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
           null,
           null
         ]
@@ -186,6 +379,6 @@
         ]
       }
     },
-    "timestamp": 1619438913
+    "timestamp": 1619439340
   }
 }

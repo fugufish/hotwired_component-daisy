@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe Daisy::Card::BodyComponent, type: :view do
+RSpec.describe HotwiredComponent::Daisy::Card::BodyComponent, type: :view do
   subject do
     described_class.new
   end

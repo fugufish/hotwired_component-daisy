@@ -3,7 +3,7 @@
 module HotwiredComponent
   module Daisy
     module Card
-      class BodyComponent < ApplicationComponent
+      class BodyComponent < DaisyComponent
         renders_one :title, TitleComponent
       end
     end

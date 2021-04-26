@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe Daisy::Forms::LabelComponent, type: :view do
+RSpec.describe HotwiredComponent::Daisy::Forms::LabelComponent, type: :view do
   let(:method)      { :email }
   let(:object_name) { "user" }
   let(:value)       { nil }

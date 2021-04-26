@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "rails_helper"
-RSpec.describe Daisy::Forms::InputComponent, type: :view do
+RSpec.describe HotwiredComponent::Daisy::Forms::InputComponent, type: :view do
   let(:object) { User.new }
   let(:method) { :email }
   let(:object_name) { nil }
