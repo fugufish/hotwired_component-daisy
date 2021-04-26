@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
     "README.md"]
 
   spec.add_dependency "rails", "~> 6.1.3", ">= 6.1.3.1"
+  spec.add_dependency "hotwire-rails"
   spec.add_dependency "hotwired_component", "~> 0.1"
   spec.add_dependency "tailwindcss-rails"
 end

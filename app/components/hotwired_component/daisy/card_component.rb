@@ -3,7 +3,7 @@
 module HotwiredComponent
   module Daisy
     class CardComponent < DaisyComponent
-      renders_one :body, Card::BodyComrsponent
+      renders_one :body, Card::BodyComponent
 
       def initialize(classes: nil)
         super
