@@ -3,7 +3,7 @@
 require "rails_helper"
 RSpec.describe HotwiredComponent::Daisy::Forms::SubmitButtonComponent,
   type: :view do
-  let(:value) { "auth.sign_up" }
+  let(:value) { "Sign Up" }
   let(:options) { {} }
 
   subject { described_class.new(value: value, options: options) }
@@ -25,3 +25,4 @@ RSpec.describe HotwiredComponent::Daisy::Forms::SubmitButtonComponent,
     end
   end
 end
+ 

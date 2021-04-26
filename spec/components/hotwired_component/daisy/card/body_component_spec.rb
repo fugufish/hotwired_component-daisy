@@ -8,15 +8,15 @@ RSpec.describe HotwiredComponent::Daisy::Card::BodyComponent, type: :view do
   end
 
   describe "render" do
-    let(:title) { double(Daisy::Card::TitleComponent, render_in: "title") }
+    let(:title) { double(HotwiredComponent::Daisy::Card::TitleComponent, render_in: "title") }
 
     it "should render the body" do
-      expect(Daisy::Card::TitleComponent).to receive(:new)
-        .with(t: "foo")
+      expect(HotwiredComponent::Daisy::Card::TitleComponent).to receive(:new)
+        .with(value: "foo")
         .and_return(title)
 
       render(subject) do |b|
-        b.title t: "foo"
+        b.title value: "foo"
         "this is the body"
       end
 

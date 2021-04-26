@@ -16,13 +16,13 @@ RSpec.describe HotwiredComponent::Daisy::Forms::InputComponent, type: :view do
     }
   end
 
-  let(:label) { double(Daisy::Forms::LabelComponent) }
+  let(:label) { double(HotwiredComponent::Daisy::Forms::LabelComponent) }
 
   subject { described_class.new(**default_options) }
 
   describe "render" do
     it "should render the input with labels" do
-      expect(Daisy::Forms::LabelComponent).to receive(:new)
+      expect(HotwiredComponent::Daisy::Forms::LabelComponent).to receive(:new)
         .twice.and_return(label)
 
       expect(subject).to receive(:render).twice.with(label).and_return("")
@@ -39,12 +39,12 @@ RSpec.describe HotwiredComponent::Daisy::Forms::InputComponent, type: :view do
 
   describe "#label" do
     before :each do
-      allow(Daisy::Forms::LabelComponent).to receive(:new).and_return(label)
+      allow(HotwiredComponent::Daisy::Forms::LabelComponent).to receive(:new).and_return(label)
       allow(subject).to receive(:render).and_return("")
     end
 
     it "should render the label" do
-      expect(Daisy::Forms::LabelComponent).to receive(:new)
+      expect(HotwiredComponent::Daisy::Forms::LabelComponent).to receive(:new)
         .at_least(:once)
         .with({
           method:      method,
@@ -59,12 +59,12 @@ RSpec.describe HotwiredComponent::Daisy::Forms::InputComponent, type: :view do
 
   describe "#error_label" do
     before :each do
-      allow(Daisy::Forms::LabelComponent).to receive(:new).and_return(label)
+      allow(HotwiredComponent::Daisy::Forms::LabelComponent).to receive(:new).and_return(label)
       allow(subject).to receive(:render).and_return("")
     end
 
     it "should render the label" do
-      expect(Daisy::Forms::LabelComponent).to receive(:new)
+      expect(HotwiredComponent::Daisy::Forms::LabelComponent).to receive(:new)
         .at_least(:once)
         .with({
           method:      method,

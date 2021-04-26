@@ -25,7 +25,7 @@ module HotwiredComponent
         attr_reader :method, :object_name, :options, :value
 
         def content
-          super || value
+          super || value || method.to_s.titleize
         end
 
         def render?
