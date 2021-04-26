@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 module HotwiredComponent
-  module Daisy
+  module Daisy 
     class Engine < ::Rails::Engine
-    end
+    end  
   end
 end

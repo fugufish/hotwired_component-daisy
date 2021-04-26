@@ -12,11 +12,7 @@ module HotwiredComponent
 
         private
 
-        def value
-          return t("forms.submit") if @value.is_a? Hash
-
-          t(@value)
-        end
+        attr_reader :value
 
         def options
           @options = value if @value.is_a? Hash

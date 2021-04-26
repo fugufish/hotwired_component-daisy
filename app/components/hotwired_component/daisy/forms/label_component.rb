@@ -5,7 +5,7 @@ module HotwiredComponent
     module Forms
       ##
       # Daisy label
-      class LabelComponent < DaisyComponent 
+      class LabelComponent < DaisyComponent
         ##
         # @param method [Symbol] the method name for which to create the label
         # @param object_name [Symbol] the object name for which to create the label
@@ -25,7 +25,7 @@ module HotwiredComponent
         attr_reader :method, :object_name, :options, :value
 
         def content
-          super || t(value) || t("#{object_name.to_s.pluralize}.#{method}")
+          super || value
         end
 
         def render?

@@ -4,14 +4,14 @@ module HotwiredComponent
   module Daisy
     module Card
       class TitleComponent < DaisyComponent
-        def initialize(t:)
+        def initialize(value:)
           super
-          @text = t
+          @value = value
         end
 
         private
 
-        attr_reader :text
+        attr_reader :value
       end
     end
   end

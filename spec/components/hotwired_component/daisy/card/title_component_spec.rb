@@ -3,7 +3,7 @@
 require "rails_helper"
 
 RSpec.describe HotwiredComponent::Daisy::Card::TitleComponent, type: :view do
-  subject { described_class.new(t: "auth.sign_up") }
+  subject { described_class.new(value: "Sign Up") }
   describe "render" do
     it "should render the component" do
       render(subject)
