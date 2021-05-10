@@ -246,6 +246,7 @@ DEPENDENCIES
   simplecov
   solargraph
   sqlite3
+  yard
 
 BUNDLED WITH
    2.2.15

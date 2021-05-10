@@ -15,6 +15,7 @@ gem "rspec-rails"
 gem "rubocop"
 gem "simplecov"
 gem "solargraph"
+gem "yard"
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]

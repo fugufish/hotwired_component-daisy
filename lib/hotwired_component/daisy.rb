@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "hotwire-rails"
+require "tailwindcss-rails"
 
 require "hotwired_component/daisy/version"
 require "hotwired_component/daisy/engine"
